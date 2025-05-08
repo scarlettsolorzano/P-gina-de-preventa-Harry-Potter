@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harry Potter Shop - Preventa Invierno</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-nav">
+      <img src="https://harrypottershop.co.uk/cdn/shop/files/WW_HP_STORE_MONO-BLK_LOGO.svg?v=1740060686&width=330" alt="Logo Harry Potter" class="logo" />
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li class="listas"><a href="#ropa">Ropa</a></li>
+          <li class="listas"><a href="#tallas">Tallas</a></li>
+          <li class="listas"><a href="#suscripcion">Suscripción</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner-section" aria-labelledby="titulo-principal">
+      <img src="https://harrypottershop.co.uk/cdn/shop/collections/hero-clothing.jpg?v=1730820478&width=3840" alt="Grupo de personas con suéteres de las casas de Harry Potter frente al tren" class="banner" />
+      <div class="banner-text">
+        <h2 id="titulo-principal">Colección Invierno en Hogwarts</h2>
+        <p>Suscríbete ahora para la preventa y obtener la exclusiva y nueva colección de Invierno.</p>
+        <a href="#suscripcion" class="boton">Suscribirse</a>
+      </div>
+    </section>
+
+    <section id="ropa" aria-labelledby="titulo-ropa">
+      <h2 id="titulo-ropa">Ropa</h2>
+      <p>Desde el Mundo Mágico de Harry Potter llega aquí la nueva colección de ropa de Invierno.Conoce el lanzamiento 2025 en <a href="https://harrypottershop.co.uk/collections/exclusive">Harry Potter Pastel Collection</a>.</p>
+
+      <div class="productos">
+        <article>
+          <img src="https://harrypottershop.co.uk/cdn/shop/files/MineralMascots_SpiritJersey_Gryffindor_B.png?v=1742223825&width=533" alt="Suéter Gryffindor Jersey" />
+          <h3>Gryffindor Jersey</h3>
+          <p>$1,500 MXN</p>
+        </article>
+        <article>
+          <img src="https://harrypottershop.co.uk/cdn/shop/files/MineralMascots_SpiritJersey_Slytherin_B.png?v=1742223806&width=533" alt="Suéter Slytherin light Jersey" />
+          <h3>Slytherin light Jersey</h3>
+          <p>$1,500 MXN</p>
+        </article>
+        <article>
+          <img src="https://harrypottershop.co.uk/cdn/shop/files/MineralMascots_SpiritJersey_Ravenclaw_B.png?v=1742223791&width=533" alt="Suéter Ravenclaw Jersey" />
+          <h3>Ravenclaw Jersey</h3>
+          <p>$1,500 MXN</p>
+        </article>
+        <article>
+          <img src="https://harrypottershop.co.uk/cdn/shop/files/MineralMascots_SpiritJersey_Hufflepuff_B.png?v=1742223799&width=533" alt="Suéter Hufflepuff Jersey" />
+          <h3>Hufflepuff Jersey</h3>
+          <p>$1,500 MXN</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tallas" aria-labelledby="titulo-tallas">
+      <h2 id="titulo-tallas">Tallas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Talla</th>
+            <th>Pecho</th>
+            <th>Cintura</th>
+            <th>Cadera</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>XS</td><td>79-85</td><td>69-74</td><td>79-85</td></tr>
+          <tr><td>S</td><td>86-94</td><td>76-81</td><td>86-94</td></tr>
+          <tr><td>M</td><td>95-102</td><td>81-89</td><td>95-102</td></tr>
+          <tr><td>L</td><td>103-105</td><td>89-109</td><td>103-105</td></tr>
+          <tr><td>XL</td><td>106-113</td><td>99-109</td><td>106-113</td></tr>
+          <tr><td>2XL</td><td>121-129</td><td>119-135</td><td>121-129</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="suscripcion" aria-labelledby="titulo-suscripcion">
+      <div class="suscripcion-container">
+          <h2 id="titulo-suscripcion">Suscripción</h2>
+          <p>Completa el formulario y recibirás el aviso de la preventa de Colección Invierno en Hogwarts.</p>
+
+          <form id="formulario">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required />
+
+            <label for="pais">País</label>
+            <select id="pais" name="pais" required>
+              <option value="">Seleccione un país</option>
+              <option value="México">México</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Chile">Chile</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brasil">Brasil</option>
+            </select>
+
+            <button type="submit">Suscribirse</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright ©2025, Harry Potter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
